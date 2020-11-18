@@ -1,7 +1,7 @@
 <div align="center">
   <h1>RBXFetch</h1>
   <p>A lightweight wrapper of Roblox's <code>HttpService</code></p>
-  Built with [roblox-lua-promise](https://github.com/evaera/roblox-lua-promise)
+  Built with (roblox-lua-promise)[https://github.com/evaera/roblox-lua-promise]
 </div>
 
 ## Installation
