@@ -28,6 +28,7 @@ Fetch.GET("https://api.example.com/")
 ```
 
 Simple POST request
+```lua
 Fetch.POST("https://api.example.com/", { ["some-property"] = "some-value" }, Enum.HttpContentType.ApplicationJson)
 	:andThen(function(res)
 		local resTable = Fetch.toTable(res)
@@ -38,3 +39,4 @@ Fetch.POST("https://api.example.com/", { ["some-property"] = "some-value" }, Enu
 	:catch(function(err)
 		warn(err)	
 	end)
+```
