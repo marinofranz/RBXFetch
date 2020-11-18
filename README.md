@@ -10,7 +10,7 @@ The installation is quite easy.
 Download the <code>RBXFetch.rbxm</code> in the <strong>Releases</strong> tab - pick whatever version you prefer (currently there is only one)
 Then, just drag that file over to Roblox into <code>ServerScriptService</code>
 
-## Example
+## Examples
 Simple GET request
 
 <strong>Make sure Fetch is defined as the RBXFetch module</strong>
